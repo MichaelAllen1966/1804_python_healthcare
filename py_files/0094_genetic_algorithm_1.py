@@ -136,6 +136,10 @@ for generation in range(maximum_generation):
     
     # Replace the old population with the new one
     population = np.array(new_population)
+
+    # Apply mutation
+    mutation_rate = 0.002
+    population = randomly_mutate_population(population, mutation_rate)
     
     # Score best solution, and add to tracker
     scores = calculate_fitness(reference, population)
