@@ -1,2 +1,4 @@
 data/pubmed.csv
+titanic/my_logs/
+test.*
 __pycache__
