@@ -1,4 +1,4 @@
-# Machine Learning process
+# Machine Learning process:
 
 ## Decide on basic model type
 
